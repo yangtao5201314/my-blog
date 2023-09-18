@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    // 编译之后的 es 版本
+    "target": "ESNext",
+    // 是否保留 class 未赋值的属性
+    "useDefineForClassFields": true,
+    // 编译之后的文件采用的模块规范
+    "module": "ESNext",
+    /*
+      moduleResolution 模块解析
+      模块解析是 typescript 编译器用何种方式来确定导入所指内容。
+      moduleResolution: "node" =>采用 node 模块解析的方式查找文件。[从内层到最高目录的外层查找 import 引入的文件]
+      moduleResolution:"classic"=> 采用 classic 模块解析的方式查找文件。[从外层到内层方式查找查找 import 引入的文件]
+      moduleResolution": "node"
+    */
+    "moduleResolution": "Node",
+    // 开启严格模式
+    "strict": true,
+    // 使用 jsx 语法
+    "jsx": "preserve",
+    // 允许引入 ts 文件
+    "resolveJsonModule": true,
+    // ts 文件必须导出模块 ,并且导出类型必须添加 type
+    "isolatedModules": true,
+    // 有些依赖库底层 为了在CommonJs、AMD这二者的规范中相互兼容，使用了 export =，将二者规范统一。
+    // 表示允许依赖库中出现 export = 这种兼容规范导出的格式，TS 可以用 import from 导入
+    "esModuleInterop": true,
+    // 允许访问的底层依赖库
+    "lib": ["ESNext", "DOM"],
+    // 对声明文件不进行类型检查
+    "skipLibCheck": true,
+    // 禁用从编译中发出文件
+    "noEmit": true,
+    // 基础url
+    "baseUrl": "",
+    // 设置别名
+    "paths": {
+      "@/*": ["src/*"],
+      "@v/*": ["src/views/*"],
+      "@c/*": ["src/components/*"],
+      "@u/*": ["src/utils/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

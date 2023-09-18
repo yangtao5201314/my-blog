@@ -1,0 +1,169 @@
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  background-color: var(--warbler-bg);
+  font-family: var(--warbler-font-family-base);
+  font-size: 16px;
+  color: var(--warbler-text-2);
+}
+
+/* 阿里图标库初始化 */
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/* 基础颜色 */
+:root {
+  --warbler-white: #ffffff;
+  --warbler-black: #000000;
+  --warbler-black-half-opacity: RGBA(0, 0, 0, 0.5);
+  --warbler-brand: #646cff;
+  --warbler-brand-light: #747bff;
+  --warbler-brand-lighter: #9499ff;
+  --warbler-brand-lightest: #bcc0ff;
+  --warbler-brand-dark: #535bf2;
+  --warbler-brand-darker: #454ce1;
+  --warbler-brand-dimm: rgba(100, 108, 255, 0.08);
+}
+
+/* 页面两边的空白距离 */
+:root {
+  --page-padding: 32px;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --page-padding: 16px;
+  }
+}
+
+/* 背景颜色 */
+:root {
+  --warbler-bg: #1e1e20;
+  --warbler-bg-soft: #161618;
+  --warbler-bg-half-opacity: RGBA(30, 30, 32, 0.5);
+}
+
+/* 高度 */
+:root {
+  --warbler-header-height: 64px;
+}
+
+/* 文字颜色 */
+:root {
+  --warbler-text-1: var(--warbler-white);
+  --warbler-text-2: #fffff5db;
+  --warbler-text-3: var(--warbler-brand);
+}
+
+/* 边框颜色 */
+:root {
+  --warbler-border-color-1: rgba(82, 82, 89, 0.32);
+  --warbler-border-1: 1px solid var(--warbler-border-color-1);
+}
+
+/* 滚动条相关颜色 */
+:root {
+  --warbler-scroll-thumb-color: #686868;
+  --warbler-scroll-track-color: #424242;
+}
+
+/* 字体 */
+:root {
+  --warbler-font-family-base: 'Inter var', 'Inter', ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --warbler-font-family-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+}
+
+::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 8px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+}
+
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  background-color: var(--warbler-scroll-thumb-color);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  /* 阴影 */
+  -webkit-box-shadow: inset 0 0 5px var(--warbler-black);
+  background: var(--warbler-scroll-track-color);
+}
+
+.fs12 {
+  font-size: 12px;
+}
+
+.fs14 {
+  font-size: 14px;
+}
+
+.fwb {
+  font-weight: bold;
+}
+
+.text-over-flow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.spinner-box {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.spinner {
+  height: 50px;
+  width: 50px;
+  background: transparent;
+  border: red 3px solid;
+  border-top: transparent;
+  border-radius: 50%;
+  animation: animate81323 0.8s linear infinite;
+}
+
+@keyframes animate81323 {
+  0% {
+    border: 3px solid rgb(255, 75, 75);
+    border-top: transparent;
+    border-left: transparent;
+    transform: rotate(0deg);
+  }
+
+  50% {
+    border: 3px dashed rgb(240, 41, 240);
+    border-top: transparent;
+    border-left: transparent;
+    transform: rotate(270deg);
+  }
+
+  100% {
+    border: 3px dotted rgb(28, 228, 28);
+    border-top: transparent;
+    border-left: transparent;
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "@commitlint/format",
+  "version": "17.4.4",
+  "description": "Format commitlint reports",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "deps": "dep-check",
+    "pkg": "pkg-check --skip-import"
+  },
+  "engines": {
+    "node": ">=v14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conventional-changelog/commitlint.git",
+    "directory": "@commitlint/format"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/commitlint/issues"
+  },
+  "homepage": "https://commitlint.js.org/",
+  "keywords": [
+    "conventional-changelog",
+    "commitlint",
+    "library",
+    "core"
+  ],
+  "author": {
+    "name": "Mario Nebl",
+    "email": "hello@herebecode.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/utils": "^17.4.0"
+  },
+  "dependencies": {
+    "@commitlint/types": "^17.4.4",
+    "chalk": "^4.1.0"
+  },
+  "gitHead": "1aeec3c9b2c21cb8f0386398c24d8e7ed6eafbf0"
+}

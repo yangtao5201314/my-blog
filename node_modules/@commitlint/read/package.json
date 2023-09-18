@@ -1,0 +1,53 @@
+{
+  "name": "@commitlint/read",
+  "version": "17.4.4",
+  "description": "Read commit messages from a specified range or last edit",
+  "main": "lib/read.js",
+  "types": "lib/read.d.ts",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "deps": "dep-check",
+    "pkg": "pkg-check --skip-import"
+  },
+  "engines": {
+    "node": ">=v14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conventional-changelog/commitlint.git",
+    "directory": "@commitlint/read"
+  },
+  "bugs": {
+    "url": "https://github.com/conventional-changelog/commitlint/issues"
+  },
+  "homepage": "https://commitlint.js.org/",
+  "keywords": [
+    "conventional-changelog",
+    "commitlint",
+    "library",
+    "core"
+  ],
+  "author": {
+    "name": "Mario Nebl",
+    "email": "hello@herebecode.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/test": "^17.4.2",
+    "@commitlint/utils": "^17.4.0",
+    "@types/fs-extra": "^11.0.0",
+    "@types/git-raw-commits": "^2.0.0",
+    "@types/minimist": "^1.2.2",
+    "execa": "^5.0.0"
+  },
+  "dependencies": {
+    "@commitlint/top-level": "^17.4.0",
+    "@commitlint/types": "^17.4.4",
+    "fs-extra": "^11.0.0",
+    "git-raw-commits": "^2.0.0",
+    "minimist": "^1.2.6"
+  },
+  "gitHead": "1aeec3c9b2c21cb8f0386398c24d8e7ed6eafbf0"
+}
