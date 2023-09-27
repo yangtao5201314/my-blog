@@ -7,6 +7,7 @@ export default defineConfig(({ mode, command }) => {
   console.log('🚀🚀 ~ 当前阶段', command);
   console.log('🚀🚀 ~ 当前运行环境', mode);
   return {
+    base: '/yangtao-js/',
     plugins: [vue()],
     resolve: {
       alias: {

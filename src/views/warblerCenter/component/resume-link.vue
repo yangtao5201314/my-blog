@@ -25,10 +25,10 @@ interface Link {
 
 const map: Array<Link> = [
   {
-    name: '岸边的风',
+    name: 'CSDN',
     nameLink: 'https://blog.csdn.net/qq_48652579?type=lately',
     online: 'https://blog.csdn.net/qq_48652579?type=lately',
-    source: 'https://github.com/alanhzw/warbler-homepage',
+    // source: 'https://github.com/alanhzw/warbler-homepage',
   },
   {
     name: 'Github',
@@ -46,6 +46,11 @@ const map: Array<Link> = [
     online: 'https://juejin.cn/user/3307789418773736',
   },
   {
+    name: 'UNIAPP',
+    nameLink: 'https://ext.dcloud.net.cn/plugin?id=11251',
+    online: 'https://ext.dcloud.net.cn/plugin?id=11251',
+  },
+  {
     name: '微信公众号',
     nameLink: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU5MzAyNzc2Mg==&action=getalbum&album_id=2999589795658170373&scene=173&from_msgid=2247486496&from_itemidx=1&count=3&nolastread=1#wechat_redirect',
     online: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU5MzAyNzc2Mg==&action=getalbum&album_id=2999589795658170373&scene=173&from_msgid=2247486496&from_itemidx=1&count=3&nolastread=1#wechat_redirect',
@@ -54,7 +59,7 @@ const map: Array<Link> = [
     name: 'Warbler-FE',
     nameLink: 'http://www.warblerfe.top/',  
     online: 'http://www.warblerfe.top/',
-    source: 'https://github.com/yangtao5201314',
+    source: 'https://github.com/yangtao5201314/my-blog',
   },
   {
     name: 'warbler-cli',
@@ -68,11 +73,11 @@ const map: Array<Link> = [
     online: 'http://www.warblerfe.top/warbler/js',
     source: 'https://github.com/alanhzw/warbler-js',
   },
-  // {
-  //   name: '个人主页(旧版)',
-  //   nameLink: 'http://www.duwanyu.com/#',
-  //   online: 'http://www.duwanyu.com/#',
-  // },
+  {
+    name: '个人主页(旧版)',
+    nameLink: 'http://www.duwanyu.com/#',
+    online: 'http://www.duwanyu.com/#',
+  },
 ];
 
 const goToLink = (link?: string) => {

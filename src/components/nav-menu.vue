@@ -25,7 +25,7 @@
       <div class="icon-bg" title="warbler-cli" @click="router.push({ path: '/warbler/cli' })">
         <div>cli</div>
       </div>
-      <div class="icon-bg" title="warbler-js" @click="router.push({ path: '/warbler/js' })">
+      <div class="icon-bg" title="yangtao-js" @click="router.push({ path: '/warbler/js' })">  
         <div>js</div>
       </div>
       <div class="icon-bg" title="全栈小杨" @click="router.push({ path: '/warblerCenter' })">
@@ -46,11 +46,11 @@ const navs = [
     path: '/navigation',
   },
   {
-    title: 'warbler-js',
+    title: 'yangtao-js',
     path: '/warbler/js',
   },
   {
-    title: 'warbler-cli',
+    title: 'yangtao-cli',
     path: '/warbler/cli',
   },
   // {

@@ -1,10 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHistory,createWebHashHistory } from 'vue-router';
 
 const routes = [
   {
     path: '/',
     name: 'homepage',
-    component: () => import(/* webpackChunkName: "homepage" */ '@v/homepage/index.vue'),
+    component: () => import(/* webpackChunkName: "homepage" */ '../views/homepage/index.vue'),
     children: [],
   },
   {
@@ -47,7 +47,7 @@ const routes = [
 
 const router = createRouter({
   routes,
-  history: createWebHistory(),
+  history: createWebHashHistory(),
 });
 
 export default router;
