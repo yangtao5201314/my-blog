@@ -4,17 +4,19 @@
     <div class="title">工作经历</div>
     <div class="job mt8">
       <div class="header">
-        <div class="company">北京理想研发总部（组员）</div>
-        <div class="time">2023 年 6 月至今</div>
+        <!-- <div class="company">北京理想研发总部（组员）</div> -->
+        <div class="time">
+          <!-- 2023 年 6 月至今 -->
+        </div>
       </div>
       <div class="job-content">
-        <div class="job-content-item"><span>·</span>负责页面开发；</div>
+        <div class="job-content-item"><span>·</span>简历目前是个初版，还未完善，以下只是极小部分</div>
       </div>
     </div>
     <div class="job mt8">
       <div class="header">
         <div class="company">启迪万众网络 - 信息集成（团队负责人，3人）</div>
-        <div class="time">2022 年 3 月至 2023 年 6月</div>
+        <div class="time">2022 年 3 月至 至今</div>
       </div>
       <div class="job-content">
         <div class="job-content-item">
@@ -54,7 +56,7 @@
     </div>
     <div class="job mt8">
       <div class="header">
-        <div class="company">启迪万众网络 - 云鹿CRM（组员）</div>
+        <div class="company">陕西繁星智达数字科技有限公司 - 云鹿CRM（组员）</div>
         <div class="time">2019 年 8 月 ~ 2022 年 2 月</div>
       </div>
       <div class="job-content">

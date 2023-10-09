@@ -18,13 +18,14 @@
         {{ nav.title }}
       </div>
     </div>
+    <!-- 移动端 -->
     <div class="navs show-icon">
       <div class="icon-bg" title="前端导航" @click="router.push({ path: '/navigation' })">
         <i class="iconfont icon-daohang"></i>
       </div>
-      <div class="icon-bg" title="warbler-cli" @click="router.push({ path: '/warbler/cli' })">
+      <!-- <div class="icon-bg" title="warbler-cli" @click="router.push({ path: '/warbler/cli' })">
         <div>cli</div>
-      </div>
+      </div> -->
       <div class="icon-bg" title="yangtao-js" @click="router.push({ path: '/warbler/js' })">  
         <div>js</div>
       </div>

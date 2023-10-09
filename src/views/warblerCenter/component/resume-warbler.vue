@@ -62,9 +62,9 @@ const goToLink = (type: string) => {
       height: 200px;
       border-radius: 50%;
       background: url('@/assets/image/warbler.png');
-      background-size: 145%;
+      background-size: 109%;
       background-repeat: no-repeat;
-      background-position: -30px 0px;
+      background-position: -17px 0px;
     }
     .job {
       font-size: 24px;

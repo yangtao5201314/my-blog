@@ -56,6 +56,11 @@ const map: Array<Link> = [
     online: 'https://tinyurl.com/gongZhonghao',
   },
   {
+    name: '哔哩哔哩',
+    nameLink: 'https://space.bilibili.com/560080179',
+    online: 'https://space.bilibili.com/560080179',
+  },
+  {
     name: '个人网站',
     nameLink: 'https://tinyurl.com/yangtaoWeb',
     online: 'https://tinyurl.com/yangtaoWeb',
@@ -68,7 +73,7 @@ const map: Array<Link> = [
   //   source: 'https://github.com/alanhzw/warbler-cli',
   // },
   {
-    name: 'warbler-js',
+    name: 'yangtao-js',
     nameLink: 'https://tinyurl.com/yangtao-js',
     online: 'https://tinyurl.com/yangtao-js',
     source: 'https://github.com/yangtao5201314/yangtao-js',
