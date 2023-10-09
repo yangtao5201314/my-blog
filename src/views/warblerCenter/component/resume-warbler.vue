@@ -7,7 +7,7 @@
     </div>
     <div class="info">
       <div class="info-item">姓名：杨涛</div>
-      <div class="info-item">昵称：语文数学天才</div>
+      <div class="info-item">昵称：江城开朗的豌豆</div>
       <div class="info-item">年龄：24</div>
       <div class="info-item">坐标：西安</div>
       <div class="info-item">邮箱：2749552387@qq.com</div>
@@ -17,7 +17,7 @@
     </div>
     <div class="contact">
       <div class="words">
-        语文数学天才是一个前端开发工程师，性格开朗，热爱分享和书写技术博客，
+        江城开朗的豌豆是一个前端开发工程师，性格开朗，热爱分享和书写技术博客，
         平时玩的游戏有QQ飞车，王者荣耀，和平精英，
         <strong>目前正在启迪万众网络科技（北京）有限公司工作</strong>，如果你对我或我的技术感兴趣 ， 欢迎联系我
       </div>

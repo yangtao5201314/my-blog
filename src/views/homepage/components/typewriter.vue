@@ -2,7 +2,7 @@
   <div class="typewriter-box">
     <div class="typewriter">
       <div class="text">
-        全栈小杨，
+        江城开朗的豌豆，
         <span class="Chinese">让前端再简单一点。</span>
       </div>
     </div>

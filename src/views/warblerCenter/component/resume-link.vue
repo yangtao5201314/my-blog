@@ -52,32 +52,33 @@ const map: Array<Link> = [
   },
   {
     name: '微信公众号',
-    nameLink: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU5MzAyNzc2Mg==&action=getalbum&album_id=2999589795658170373&scene=173&from_msgid=2247486496&from_itemidx=1&count=3&nolastread=1#wechat_redirect',
-    online: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU5MzAyNzc2Mg==&action=getalbum&album_id=2999589795658170373&scene=173&from_msgid=2247486496&from_itemidx=1&count=3&nolastread=1#wechat_redirect',
+    nameLink: 'https://tinyurl.com/gongZhonghao',
+    online: 'https://tinyurl.com/gongZhonghao',
   },
   {
-    name: 'Warbler-FE',
-    nameLink: 'http://www.warblerfe.top/',  
-    online: 'http://www.warblerfe.top/',
+    name: '个人网站',
+    nameLink: 'https://tinyurl.com/yangtaoWeb',
+    online: 'https://tinyurl.com/yangtaoWeb',
     source: 'https://github.com/yangtao5201314/my-blog',
   },
-  {
-    name: 'warbler-cli',
-    nameLink: 'http://www.warblerfe.top/warbler/cli',
-    online: 'http://www.warblerfe.top/warbler/cli',
-    source: 'https://github.com/alanhzw/warbler-cli',
-  },
+  // {
+  //   name: 'warbler-cli',
+  //   nameLink: 'http://www.warblerfe.top/warbler/cli',
+  //   online: 'http://www.warblerfe.top/warbler/cli',
+  //   source: 'https://github.com/alanhzw/warbler-cli',
+  // },
   {
     name: 'warbler-js',
-    nameLink: 'http://www.warblerfe.top/warbler/js',
-    online: 'http://www.warblerfe.top/warbler/js',
-    source: 'https://github.com/alanhzw/warbler-js',
+    nameLink: 'https://tinyurl.com/yangtao-js',
+    online: 'https://tinyurl.com/yangtao-js',
+    source: 'https://github.com/yangtao5201314/yangtao-js',
   },
-  {
-    name: '个人主页(旧版)',
-    nameLink: 'http://www.duwanyu.com/#',
-    online: 'http://www.duwanyu.com/#',
-  },
+  // {
+  //   name: '个人主页(旧版)',
+  //   nameLink: 'https://alanhzw.github.io/',
+  //   online: 'https://alanhzw.github.io/',
+  //   source: 'https://github.com/alanhzw/warbler-homepage'
+  // },
 ];
 
 const goToLink = (link?: string) => {
@@ -99,6 +100,7 @@ const goToLink = (link?: string) => {
   .mt16 {
     margin-top: 16px;
   }
+
   strong {
     color: var(--warbler-brand);
     margin: 0 5px;
@@ -125,31 +127,39 @@ const goToLink = (link?: string) => {
       display: flex;
       justify-content: flex-start;
       align-items: center;
+
       .name {
         cursor: pointer;
+
         &:hover {
           color: var(--warbler-brand);
         }
       }
     }
+
     .right {
       display: none;
+
       @media (min-width: 1600px) or (max-width: 1500px) {
         display: flex;
         justify-content: flex-end;
         align-items: center;
       }
+
       .online {
         color: var(--warbler-brand-lighter);
         cursor: pointer;
+
         &:hover {
           color: var(--warbler-brand);
         }
       }
+
       .source {
         color: var(--warbler-brand-lightest);
         margin-left: 8px;
         cursor: pointer;
+
         &:hover {
           color: var(--warbler-brand);
         }
@@ -164,5 +174,4 @@ const goToLink = (link?: string) => {
       color: var(--warbler-brand);
     }
   }
-}
-</style>
+}</style>

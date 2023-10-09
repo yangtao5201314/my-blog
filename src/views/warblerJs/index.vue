@@ -16,9 +16,11 @@
 <script setup lang="ts">
 import { computed, ref, onMounted } from 'vue';
 
-const domain = computed(() => import.meta.env.VITE_WARBLER_JS_DOMAIN);
+// const domain = computed(() => import.meta.env.VITE_WARBLER_JS_DOMAIN);  
+const domain = 'https://tinyurl.com/yangtao-js';  
+
 const iframe = ref<null | HTMLElement>(null);
-const loading = ref(true);
+const loading = ref(true);  
 onMounted(() => {
   iframe.value!.onload = () => {
     loading.value = false;

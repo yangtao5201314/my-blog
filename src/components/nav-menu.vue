@@ -6,7 +6,7 @@
       <div class="logo-img-box">
         <img src="https://turbo.build/images/docs/repo/repo-hero-logo-dark.svg" class="logo-img" />
       </div>
-      <div class="logo-title fwb">全栈小杨</div>
+      <div class="logo-title fwb">江城开朗的豌豆</div>
     </div>
     <div class="navs show-title">
       <div
@@ -28,7 +28,7 @@
       <div class="icon-bg" title="yangtao-js" @click="router.push({ path: '/warbler/js' })">  
         <div>js</div>
       </div>
-      <div class="icon-bg" title="全栈小杨" @click="router.push({ path: '/warblerCenter' })">
+      <div class="icon-bg" title="江城开朗的豌豆" @click="router.push({ path: '/warblerCenter' })">
         <i class="iconfont icon-jianli"></i>
       </div>
     </div>
@@ -49,16 +49,16 @@ const navs = [
     title: 'yangtao-js',
     path: '/warbler/js',
   },
-  {
-    title: 'yangtao-cli',
-    path: '/warbler/cli',
-  },
+  // {
+  //   title: 'yangtao-cli',
+  //   path: '/warbler/cli',
+  // },
   // {
   //   title: '数据中心',
   //   path: '/dataCenter',
   // },
   {
-    title: '全栈小杨',
+    title: '江城开朗的豌豆',
     path: '/warblerCenter',
   },
 ];

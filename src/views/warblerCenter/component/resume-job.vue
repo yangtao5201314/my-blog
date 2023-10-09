@@ -74,7 +74,7 @@
     <div class="title">开源作品</div>
     <div class="job">
       <div class="header">
-        <div class="company">全栈小杨</div>
+        <div class="company">江城开朗的豌豆</div>
         <div class="time">成为前端开发工程师至今</div>
       </div>
       <div class="job-content">

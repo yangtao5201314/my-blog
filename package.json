@@ -1,5 +1,5 @@
 {
-  "name": "warbler-fe",
+  "name": "myblog",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -18,9 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alanhzw/warbler-fe"
+    "url": "git+https://github.com/yangtao5201314/my-blog"
   },
-  "homepage": "http://www.warblerfe.top",
+  "homepage": "https://tinyurl.com/yangtaoWeb",
   "devDependencies": {
     "@commitlint/config-conventional": "^17.4.4",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
