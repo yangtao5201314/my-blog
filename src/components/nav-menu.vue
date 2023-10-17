@@ -1,6 +1,7 @@
 
 <template>
   <div class="nav-menu">
+  
     <div class="mask"></div>
     <div class="logo cp" @click="goToHome">
       <div class="logo-img-box">
