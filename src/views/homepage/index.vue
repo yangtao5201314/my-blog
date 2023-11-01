@@ -7,6 +7,7 @@
 </template>
 
 <script setup lang="ts">
+
 import { onMounted } from 'vue';
 import typewriter from './components/typewriter.vue';
 import { renderCanvas } from './canvas';

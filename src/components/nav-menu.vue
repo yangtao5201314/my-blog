@@ -78,6 +78,8 @@ const goToHome = () => {
 };
 // 动态计算当前激活的导航，用来高亮当前导航
 const currentIndex = computed(() => navs.findIndex((nav) => nav.path === route.path));
+
+  
 </script>
 
 <style lang="scss" scoped>

@@ -10,4 +10,4 @@
 
 👉👉 [github](https://github.com/yangtao5201314)
 
-👉👉 [个人博客](https://blog.csdn.net/qq_48652579?type=lately)
+👉👉 [个人博客](https://tinyurl.com/yangtaoWeb)

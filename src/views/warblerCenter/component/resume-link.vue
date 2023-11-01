@@ -69,11 +69,22 @@ const map: Array<Link> = [
   
   {
     name: 'yangtao-js',
-    nameLink: 'https://tinyurl.com/yangtao-js',
-    online: 'https://tinyurl.com/yangtao-js',
+    nameLink: 'https://7072-prod-4gapv4gl33a8a0ff-1305990777.tcb.qcloud.la/index.html?sign=cb4a9bd3d466506cf838f5149f68007c&t=1698832416',
+    online: 'https://7072-prod-4gapv4gl33a8a0ff-1305990777.tcb.qcloud.la/index.html?sign=cb4a9bd3d466506cf838f5149f68007c&t=1698832416',
     source: 'https://github.com/yangtao5201314/yangtao-js',
   },
-
+// {
+  //   name: 'warbler-cli',
+  //   nameLink: 'http://www.warblerfe.top/warbler/cli',
+  //   online: 'http://www.warblerfe.top/warbler/cli',
+  //   source: 'https://github.com/alanhzw/warbler-cli',
+  // },
+  // {
+  //   name: '个人主页(旧版)',
+  //   nameLink: 'https://alanhzw.github.io/',
+  //   online: 'https://alanhzw.github.io/',
+  //   source: 'https://github.com/alanhzw/warbler-homepage'
+  // },
  
 ];
 

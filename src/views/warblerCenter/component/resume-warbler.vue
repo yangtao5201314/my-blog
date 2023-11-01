@@ -10,7 +10,7 @@
       <div class="info-item">昵称：江城开朗的豌豆</div>
       <div class="info-item">年龄：24</div>
       <div class="info-item">坐标：西安</div>
-      <div class="info-item">邮箱：2749552387@qq.com</div>
+      <div class="info-item">邮箱：yang_tao_web@163.com</div>
       <div class="info-item">微信：y_t_t_t_</div>
       <div class="info-item">学校：西安理工大学</div>
       <div class="info-item">专业：计算机科学与技术</div>
@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="icons">
-      <i class="iconfont icon icon-juejin" @click="goToLink('csdn')"></i>
+      <i class="iconfont icon icon-juejin" @click="goToLink('juejin')"></i>
       <i class="iconfont icon icon-huaban88" @click="goToLink('github')"></i>
       <i class="iconfont icon icon-weixin" @click="goToLink('wechat')"></i>
     </div>
@@ -36,7 +36,7 @@ import { useRouter } from 'vue-router';
 const router = useRouter();
 
 const goToLink = (type: string) => {
-  if (type === 'csdn') window.open('https://blog.csdn.net/qq_48652579?type=blog');
+  if (type === 'juejin') window.open('https://juejin.cn/user/3307789418773736');
   if (type === 'github') window.open('https://github.com/yangtao5201314');
   if (type === 'wechat') router.push({ path: '/contact' });
 };
@@ -61,10 +61,17 @@ const goToLink = (type: string) => {
       width: 200px;
       height: 200px;
       border-radius: 50%;
-      background: url('@/assets/image/warbler.png');
+      background: url('@/assets/image/warbler1.jpeg');
       background-size: 109%;
       background-repeat: no-repeat;
       background-position: -17px 0px;
+    }
+    .avatar:hover{
+      transform: rotate(666turn);
+    transition-delay: 1s;
+    transition-property: all;
+    transition-duration: 59s;
+    transition-timing-function: cubic-bezier(.34,0,.84,1);
     }
     .job {
       font-size: 24px;
