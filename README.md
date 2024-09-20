@@ -1,6 +1,6 @@
 ## 网站首页
 
-👉👉 [江城开朗的豌豆](https://tinyurl.com/yangtaoWeb)
+👉👉 [江城开朗的豌豆]([https://tinyurl.com/yangtaoWeb](https://yangtao.xyz/#/))
 
 ## 开发者
 
